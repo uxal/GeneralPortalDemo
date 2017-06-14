@@ -5,7 +5,7 @@ Due to the nature of the customer, the complete and functioning portal is privat
 The purpose of this project is to serve as a bootstrap for future portals.
 
 ## Technologies used
-I've built the portal with React and Redux. I've also integrated jqxWidgets for a table which you can see in
+I've built the portal with React and Redux. I've also integrated jqWidgets for a table which you can see in
 */src/pages/administration/customers.js*
 
 Everything is glued together with webpack 2.
