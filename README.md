@@ -12,3 +12,5 @@ Everything is glued together with webpack 2.
 
 For the UI I've opted for boostrap v4 and the react material UI library from http://www.material-ui.com 
 
+## Running the portal
+In order to start the portal just execute the following command: **npm run start**
