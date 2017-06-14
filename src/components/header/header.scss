@@ -1,0 +1,32 @@
+.uxalTopNavMenu {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: height .35s ease;
+  -o-transition: height .35s ease;
+  transition: height .35s ease;
+  display: block;
+  height: 0;
+}
+
+.show {
+  height: 40px;
+  -webkit-transition: height .35s ease;
+  -o-transition: height .35s ease;
+  transition: height .35s ease;
+}
+
+.userName{
+  display:inline-flex;
+  vertical-align: top;
+  color:#f9f9f9;
+  line-height: 36px;
+  padding:0 10px;
+  cursor: default;
+}
+
+@media (min-width: 576px) {
+  .uxalTopNavMenu {
+    compose: uxalTopNavMenuTop;
+    height:40px;
+  }
+}

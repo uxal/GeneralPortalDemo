@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "babel-preset-env",
+    "es2015",
+    "stage-1",
+    "react"
+  ],
+  "plugins":["transform-class-properties"]
+}

@@ -1,0 +1,27 @@
+.portalPageContainer {
+  display: flex;
+  top: 54px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding-left: 70px;
+  -webkit-box-flex: 1;
+  transition: padding .35s cubic-bezier(.4,0,.2,1);
+}
+
+.portalPageContainerGreyBackground{
+  composes:portalPageContainer;
+  background:#f9f9f9;
+}
+
+.sideMenuExpanded {
+  compose: portalPageContainer;
+  padding-left: 300px;
+}
+
+.sideMenuOnlyIconsExpanded
+{
+  compose: portalPageContainer;
+  padding-left: 80px;
+}

@@ -1,0 +1,28 @@
+.uxalSideMenu {
+  background: #292b2c;
+  width: 100px;
+  overflow: hidden;
+  position: fixed;
+  top: 54px;
+  bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #fff; }
+
+.uxalSideMenuList {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+.toggleButtonContainer {
+  display: block;
+  height: 30px; }
+
+.uxalSideMenuListContainer {
+  z-index: -1; }
+
+/*# sourceMappingURL=leftBar.css.map */

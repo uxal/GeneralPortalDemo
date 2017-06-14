@@ -1,0 +1,74 @@
+.breadCrumbs {
+    padding: 0;
+}
+
+.pageContainer {
+
+}
+
+.breadCrumbsList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.breadCrumbsItem,
+.breadCrumbsSeparator {
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.breadCrumbsItem {
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.breadCrumbsTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: default;
+}
+
+.pageContainerEmptyRow {
+    display: block;
+    height: 40px;
+}
+
+.tile {
+    padding: 20px;
+    cursor:pointer;
+    border:1px solid transparent;
+    border-radius:3px;
+    transition: all 0.25s ease-out;
+}
+
+.tileHovered
+{
+    composes:tile;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px
+}
+
+.tileIcon {
+    width: 100%;
+    text-align: center;
+}
+
+.tileText{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tileEmptyLine
+{
+    display:block;
+    width:100%;
+    height: 20px;
+}
+
+.verticalSpacebetweenTiles{
+    display:block;
+    width:100%;
+    height:20px;
+}
